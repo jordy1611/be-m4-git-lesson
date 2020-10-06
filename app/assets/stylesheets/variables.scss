@@ -1,42 +1,42 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Raleway:400,600,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC|Raleway:400,600,700");
 
-$xanadu         : #73877B;
-$bubbles        : #E5FCF5;
-$seafoamgreen   : #B3DEC1;
-$middlepurple   : #210124;
-$blackshadows   : #BAABBD;
-$licorice       : #150117;
-$antiflashwhite : #F1F9F3;
+$xanadu: pink;
+$bubbles: #e5fcf5;
+$seafoamgreen: #b3dec1;
+$middlepurple: white;
+$blackshadows: pink;
+$licorice: #150117;
+$antiflashwhite: white;
 
-$roboto  : 'Roboto Slab', serif;
-$raleway : 'Raleway', sans-serif;
-$primer  : 'IM Fell Great Primer SC',serif;
-$light   : 300;
-$semi    : 600;
-$bold    : 700;
+$roboto: "Roboto Slab", serif;
+$raleway: "Raleway", sans-serif;
+$primer: "IM Fell Great Primer SC", serif;
+$light: 300;
+$semi: 600;
+$bold: 700;
 
 @mixin related-items {
-  align-self : center;
+  align-self: center;
   h3 {
-    margin    : 20px;
-    font-size : 1.3em;
+    margin: 20px;
+    font-size: 1.3em;
   }
   .related {
-    display         : flex;
-    justify-content : center;
+    display: flex;
+    justify-content: center;
   }
   .items {
-    display        : flex;
-    flex-direction : column;
-    color          : mediumaquamarine;
-    min-height     : 150px;
+    display: flex;
+    flex-direction: column;
+    color: mediumaquamarine;
+    min-height: 150px;
   }
   a {
     text-decoration: none;
-    align-content  : center;
-    color          : $middlepurple;
-    margin         : 10px;
+    align-content: center;
+    color: $middlepurple;
+    margin: 10px;
     &:hover {
       color: $seafoamgreen;
     }
